@@ -15,7 +15,7 @@ import java.util.UUID;
 public class Prenotazione {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue
     @Column(name = "prenotazione_id")
     @Setter(AccessLevel.NONE)
     private UUID prenotazioneId;
